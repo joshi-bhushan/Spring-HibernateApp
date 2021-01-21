@@ -51,7 +51,7 @@ public class StudentDao {
 	
 	
 	//update student by Id
-	public void uodateStudent(Student student)
+	public void updateStudent(Student student)
 	{
 		this.hibernateTemplate.update(student);
 	}
